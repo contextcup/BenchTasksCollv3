@@ -1,0 +1,49 @@
+name: Assemble finalpool
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: finalpool
+      - name: Collect completed tasks from developer branches
+        shell: python
+        run: |
+          import pathlib, subprocess
+          tasks = {
+              'fan-dev': ('fan', ['price-tracker', 'discount-calculator', 'loyalty-program']),
+              'gyy': ('gyy', ['tag-manager', 'sitemap-generator', 'robots-handler']),
+              'haoze': ('haoze', ['media-organizer', 'streaming-service']),
+              'jl_dev': ('jl', ['customer-feedback-processor', 'inventory-management']),
+              'junteng_dev': ('junteng', ['shipment-tracker', 'customer-portal', 'help-desk']),
+              'junxian_dev': ('junxian', ['social-connector']),
+              'lueyang-dev': ('lueyang', ['territory-manager', 'client-portal']),
+              'lv': ('lv', ['survey-builder', 'analytics-dashboard']),
+              'ruige': ('ruige', ['expense-tracker', 'web-crawler', 'log-analyzer']),
+              'wenshuo-dev': ('wenshuo', ['cache-optimizer', 'scheduler']),
+              'xiaochen_dev': ('xiaochen', ['error-tracker', 'status-checker', 'health-monitor']),
+              'yuxuan-dev': ('yuxuan', ['task-scheduler', 'sync-service']),
+              'zhaochen': ('zhaochen', ['certificate-manager', 'storage-manager']),
+          }
+          for branch, (person, names) in tasks.items():
+              for name in names:
+                  src = f'tasks/{person}/{name}/'
+                  paths = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', f'origin/{branch}', src], text=True).splitlines()
+                  if not paths:
+                      raise RuntimeError(f'Missing task: {branch} {src}')
+                  for path in paths:
+                      target = pathlib.Path('tasks/finalpool') / name / path.removeprefix(src)
+                      target.parent.mkdir(parents=True, exist_ok=True)
+                      target.write_bytes(subprocess.check_output(['git', 'show', f'origin/{branch}:{path}']))
+      - name: Commit finalpool contents
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tasks/finalpool
+          git commit -m 'Collect implemented tasks in tasks/finalpool'
+          git push origin HEAD:finalpool

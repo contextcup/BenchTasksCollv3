@@ -12,8 +12,8 @@ jobs:
           fetch-depth: 0
           ref: finalpool
       - name: Collect completed tasks from developer branches
-        shell: python
         run: |
+          python - <<'PY'
           import pathlib, subprocess
           tasks = {
               'fan-dev': ('fan', ['price-tracker', 'discount-calculator', 'loyalty-program']),
@@ -40,6 +40,7 @@ jobs:
                       target = pathlib.Path('tasks/finalpool') / name / path.removeprefix(src)
                       target.parent.mkdir(parents=True, exist_ok=True)
                       target.write_bytes(subprocess.check_output(['git', 'show', f'origin/{branch}:{path}']))
+          PY
       - name: Commit finalpool contents
         run: |
           git config user.name 'github-actions[bot]'

@@ -1,0 +1,54 @@
+name: Assemble finalpool
+on:
+  push:
+    branches: [finalpool]
+    paths: ['.github/workflows/assemble-finalpool.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Copy implemented tasks from developer branches
+        run: |
+          git fetch origin '+refs/heads/*:refs/remotes/origin/*'
+          python3 - <<'PY'
+          import pathlib, subprocess
+          # The Task Tracker entries already marked implemented, plus the verified new tasks.
+          tasks = {
+            'fan-dev': ('fan', 'price-tracker coupon-manager loyalty-program discount-calculator'),
+            'gyy': ('gyy', 'blog-engine cms-builder content-scheduler social-publisher robots-handler sitemap-generator tag-manager'),
+            'haoze': ('haoze', 'video-trimmer subtitle-generator media-organizer streaming-service'),
+            'jl_dev': ('jl', 'pdf-report-generator email-classification-system canvas-grade-automation customer-feedback-processor inventory-management'),
+            'junteng_dev': ('junteng', 'shipment-tracker product-catalog order-processor reminder-service contact-manager calendar-sync booking-system customer-portal help-desk'),
+            'junxian_dev': ('junxian', 'qr-generator translation-api social-connector'),
+            'lueyang-dev': ('lueyang', 'sales-pipeline follow-up-reminder email-campaign deal-manager crm-system activity-logger territory-manager'),
+            'lv': ('lv', 'personalization-service sentiment-analyzer feedback-collector voice-processor chat-bot survey-builder analytics-dashboard'),
+            'ruige': ('ruige', 'expense-tracker file-manager data-analytics canvas-automation web-crawler log-analyzer'),
+            'wenshuo-dev': ('wenshuo', 'search-engine image-processor cache-optimizer scheduler'),
+            'xiaochen_dev': ('xiaochen', 'error-tracker security-scanner deployment-tool monitoring-agent backup-utility status-checker health-monitor'),
+            'yuxuan-dev': ('yuxuan', 'task-scheduler network-analyzer content-manager asset-optimizer sync-service'),
+            'yuzhen-dev': ('yuzhen', 'payment-processor permission-manager form-builder data-validator invoice-generator alert-system'),
+            'zhaochen': ('zhaochen', 'template-engine load-balancer certificate-manager storage-manager'),
+          }
+          root = pathlib.Path('tasks/finalpool')
+          for branch, (owner, names) in tasks.items():
+              for task in names.split():
+                  source = f'tasks/{owner}/{task}/'
+                  listing = subprocess.check_output(['git','ls-tree','-r','--name-only',f'origin/{branch}',source],text=True).splitlines()
+                  if not listing:
+                      raise RuntimeError(f'Missing task {branch}:{source}')
+                  for filename in listing:
+                      relative = filename[len(source):]
+                      target = root/task/relative
+                      target.parent.mkdir(parents=True,exist_ok=True)
+                      target.write_bytes(subprocess.check_output(['git','show',f'origin/{branch}:{filename}']))
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tasks/finalpool
+          if ! git diff --cached --quiet; then git commit -m 'Pool implemented tasks from Task Tracker'; git push origin HEAD:finalpool; fi

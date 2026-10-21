@@ -1,0 +1,1832 @@
+{
+  "notion_database": "69860c25-326a-8273-970b-0182d736d1a5",
+  "selection_rule": "All existing Task Tracker rows marked implemented; existing statuses preserved, not re-certified",
+  "tasks": [
+    {
+      "task": "price-tracker",
+      "implementor": "fan-dev",
+      "source_commit": "8b90f34538e4e106eba103265efaa9a456be498c",
+      "source_path": "tasks/fan/price-tracker",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "4d38c4f2c9daeea975f76e7f701d2d536c997d7e",
+          "sha256": "22d8bc0165fd109fc75f45f087f3362d6bcc7f47f0a5cdf40ba93b745a482dc1"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "66908fff5310e6ab65f9882c44cc71568715974e",
+          "sha256": "c4437384b885d1a5ab1f6992e7c80b8ffc1b1ae9abc66e3c73e089fe54d71862"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "b6c6f37202e826e8444fc223b6e82c7cc3e2d9c2",
+          "sha256": "a25d8949f2f7d6214333d2c1dcbe1abac9dc99d4a86d8913a38f8341f232e524"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "1617067aea180d556b21366e720b3e3c99b10f8b",
+          "sha256": "27998add7917dc795ceeb9c642d183eb7177e0838a2f218477fbef67b71c6f7f"
+        }
+      ]
+    },
+    {
+      "task": "coupon-manager",
+      "implementor": "fan-dev",
+      "source_commit": "8b90f34538e4e106eba103265efaa9a456be498c",
+      "source_path": "tasks/fan/coupon-manager",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "a4125f15caf53f4a7e5a9da98729e0fe012df463",
+          "sha256": "b56f256b13448a358ab60ba2d8580de6dd77a5dcd9323e08685a113ba54518b5"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "d000140885bef28764fb67c9e8150f6582949e2f",
+          "sha256": "c36c0ebed36e5fc8effec2648ce90e835b2a9a3605ffc49b4afc3c906b2c9f0d"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "123fa3d7df8f6f8037b8e2264e8c4f31c66a5666",
+          "sha256": "d7f8072de25031bfdd78f3340039f93ea0cd295be26f854b8e6edc7d1996991a"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "cb660dd46db076cff399b0037cf492388776aed3",
+          "sha256": "a448959a12ba0c3ae7dcdd6daf3e00dcd26f84c4527a4f4210f27b1997d608c1"
+        }
+      ]
+    },
+    {
+      "task": "blog-engine",
+      "implementor": "gyy",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "source_path": "tasks/gyy/blog-engine",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "cadecba4bbd0d0f9fadf1cfc43892bb905efb9fd",
+          "sha256": "b68967d7b2dc940ebd91572dc3bf2b1f20908fed1550adf9658f7a743a7ce132"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "11b5f36c5772adcea4ff202d862653159c90556d",
+          "sha256": "1ce3d411b86a53db7d6de7f4c8846d62abb47018095cabc5634fbb17af7f5763"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "8ad8ad13c97fe7bc7252bdb099221d613c9c3456",
+          "sha256": "29a2c7648602424007e44f9f9e6d5af878c1a19e472a62a69baa70d7d4b96bdd"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "1de574c1486ed5a8f488e3b975c1a445b6986840",
+          "sha256": "d7d8b9c27b1022435a37d6aaef3746c212b7d98ddfea157cf60156333fedd212"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "2a1248ef2612c50d0e96f3847efb1cf03922930e",
+          "sha256": "74803faf9b1ae857d956aa28837eb33136a62e12075d57f80e97096cbec3dcd5"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "cms-builder",
+      "implementor": "gyy",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "source_path": "tasks/gyy/cms-builder",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "3fd93f44036bcc7e00ff5a3cb4ba0d0df974e534",
+          "sha256": "6db131ca9aa68fa6bc55c03cb343a22e9d32a68c819a826e2bb99dfe566f06b0"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "3e0263be849fa646d773661b1901d82d95bb9c51",
+          "sha256": "c0777e224938fab283afb6b977d4011b8e64b50d94117e3ab31427e2910f6b7a"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "7193c26ca6f2eb7e74680e2298823d32197ad9c2",
+          "sha256": "0ecde419ebab6782593269f4072cc973da5053633d5e298a0a0e6ced556e7bbf"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "84ccab21d4368d2ef25f2bdf62bb154288a984e7",
+          "sha256": "63276cfca5ae96b6e5ec60770bd2e55552136949fd72cf43646beb194c9ec9f6"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "ad6f4c0740f549423822fe29e8bca71d6e8bbd56",
+          "sha256": "c5ca5e01244a3da143a7f2e2facac8764bb8c33e8f4bbb60d52ee9e0c34fdbda"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "ecea21fcefdd1dfb5df8918401e4383eebae7fbc",
+          "sha256": "417e450a2a1dcbec797a2f01780710aba0d5bf3b952595847a4726663c1be4a4"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "social-publisher",
+      "implementor": "gyy",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "source_path": "tasks/gyy/social-publisher",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "9cd9ceb6a1c32565473edc6d9e50f4418e4b8c9c",
+          "sha256": "2a9acf34c3a74ec8b84b806e1182b8751583512e32fe881e7da6897f439166da"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "de9b502f7043c52a7149825db48ce07bc1d98e65",
+          "sha256": "f1ec1162726377ce510cf5a2af74d901c060cf54ffe6b82b2ae32da6575f9447"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "9afe0bc2d3bb40a16b57afc938ad146054d0e9f1",
+          "sha256": "9d830383851129804eb14f11e8fa2510fb91ad91bf95bc7f95f994480b4dcbb7"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "a85c0f309aeb3838e34de8c3cbc7c5de259fcd7d",
+          "sha256": "8dd4987372e295ed94a1976b2d86cbb77f45e43a6609e06c2d3549115a190d70"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "content-scheduler",
+      "implementor": "gyy",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "source_path": "tasks/gyy/content-scheduler",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "1e0c0a27995f9650cf4b2899ea778b873039f7f6",
+          "sha256": "71137674e39cea04e6cb8902c0c2b6973475909be2330167f49956bdca78dcae"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "de4bf4aad451d8ac4656459035e0d9ad5d887fd9",
+          "sha256": "1157732a470ecc09a83a752002e6a5d1f08bd17b503c91b014174f285f8e083d"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "341037927a67a56109c10f2b07cb6b8f7152c70d",
+          "sha256": "7a896f46153818fc0625801b83aa61bc2c530eb32a1e369f0a3b6bb98d8f3e4d"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "1f76ffb0b29aa7b71ea73bcb1514e37cb9340cbd",
+          "sha256": "637ca2ceefa1ede40d7422eea8990acb69238772bb387bc666e52fd1664b48e8"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "video-trimmer",
+      "implementor": "haoze",
+      "source_commit": "e0072cf979548c56984072cd76f529c7beea59b2",
+      "source_path": "tasks/haoze/video-trimmer",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "61294abce5e93ca8ad31b6a6d4b9b731e60f9676",
+          "sha256": "38e06f8dad0c1e0d1b3b4e716055f725a8932e81da1107df274068480b69babc"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "4175bc67f11e776b59c8bbc94a08f9215f11eadd",
+          "sha256": "e9659d0a1323423bd70bf0d7ed8b3b115ed44513445c645286c45f1797d2d9a9"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "16da2f57072e2c2d5c983149b8010738f912de61",
+          "sha256": "2b119789622ba3e8df9fca5cb2501de954fd7cfdce70994fd7bea52b43f7d0bc"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "fe2b540b9b50a52946134141edc3563c95c5ea07",
+          "sha256": "509286ef2c52375e7e079ae3c1422468a241b6b8bbe7dc20eb8ee4a8ea31df9b"
+        }
+      ]
+    },
+    {
+      "task": "subtitle-generator",
+      "implementor": "haoze",
+      "source_commit": "e0072cf979548c56984072cd76f529c7beea59b2",
+      "source_path": "tasks/haoze/subtitle-generator",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "c966720ba6f26eed7ade307faaa6059958a87b0b",
+          "sha256": "01695089aa0b45144dde1748f48ed8575283641d97d4cf027a35060b91428c71"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "650b51bb511a480b329a512db103f10c17daddce",
+          "sha256": "700494e93409cf34d362bd576847ef2f967903415895669f0838809fd72b04b3"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "87759b275740731c790fa35e744418b028f75ce7",
+          "sha256": "17f2051f8365b60959299504ecf85bc1dc5136056dcaf96a64f3be4e37bc4a72"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "f79bcbb1b0aaeb17d4aacd6be21239e28b6345ef",
+          "sha256": "36943eb1fc5107c6582939ebcb463430a18edfabe5a159ca25dbe13173bd26fb"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "76df0c8ad9a6eba7fa81e3cbf44ebdc2345b2813",
+          "sha256": "7de677de7647b7597387e78065dd04ed5fe77de6efa33d3cb5abd5f51a422ff0"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "83a4d84b908998328e45ee890e19f9230b12f2d6",
+          "sha256": "c440f1f1b1f25833b94917a67147937ccf259c8c1ce8e4ab56e6403145d9f5cf"
+        }
+      ]
+    },
+    {
+      "task": "email-classification-system",
+      "implementor": "jl_dev",
+      "source_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "source_path": "tasks/jl/email-classification-system",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "7358c0e4978c668ea8560853448a9a467ca48530",
+          "sha256": "5fed097c54ef6e67f625665f986cd13ba4da882b41b13f0016977ace961dbd0b"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "ef4d26b7131794d13dd51596e0cd445fa291e7b9",
+          "sha256": "5953cfb8e7ae1aefb66e0848ace2d22098bf8ca5da6eb4532cf8e42cdbb2bbdd"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "d59a313242de93a2dab55afc2ece5a861adae329",
+          "sha256": "1faf534e8a831b8d274a1ee736a10a42ec45fc6ee42007775decca5066071765"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "1b84edb6030b5476891a6c0b2948996685c62344",
+          "sha256": "c2c1449114ffba33716d1affa3a6d0abfc2e431e45c6f26e722aec99d15ccd54"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "7403c7b29cbc3b9db40503530736e3d49f9cfaea",
+          "sha256": "d66d9cba86f5566873d14679eefdefc54c5568f0a71316b4aeabfa28702a13d0"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "pdf-report-generator",
+      "implementor": "jl_dev",
+      "source_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "source_path": "tasks/jl/pdf-report-generator",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "62db8dc075cda6da4f3f0c3fa8b373524d32211b",
+          "sha256": "6027f43186b2536d88e85da80e2d57bb005329777aecae5fe3d562b004ca78c7"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "2b55c6adc7323f8e45d313cffc30380c9ea53442",
+          "sha256": "926d014a9c285385f2768b3294acebddebfdc3a96f9d13cc0dca91ce127a2dbf"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "1c02cf84b856db4600d16eacd13e06af26c73af7",
+          "sha256": "a529eb2b49d0218364660a2a9aa8dc992897eb3cd0feccaf17f744cbde63befa"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "d81995c4d247dc1339c63c9babbd0c1fda79e1a8",
+          "sha256": "9ae4a3228d48fcf9e2a8913859df032ddbbcd619c194f56f9a4a71fb190960d5"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "11350ab1898ef9b63e7ecba0d78fbdbbc8e44123",
+          "sha256": "9d096c35af25225238e8523105f229752576cd8089b719a6d78b10787e94031a"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "62aa6c0fa7688557012af61025fa576a73c57812",
+          "sha256": "6ae94fc1299f256a75121a49721c2bf8908832558d544baa03601e48a76ada6f"
+        }
+      ]
+    },
+    {
+      "task": "canvas-grade-automation",
+      "implementor": "jl_dev",
+      "source_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "source_path": "tasks/jl/canvas-grade-automation",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "fc8abeded1bf75b46d99a7ff461386a6dda27f87",
+          "sha256": "bb9042943d803e8243e6afbeafc863f6e3c3f5ca0658bcaef57656ae9cc7cd38"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "b4bbfddfe6550b2a68b44d449b22e14e08fb6123",
+          "sha256": "80075b32e98a212c1020a76a85c53a656fa8c6d2c38490c382bd3639d596ee04"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "2e5b6f752eff456a70316987ebdab6f265507f39",
+          "sha256": "690b38f78b0c6760a4a7a69d27fa26dfc15e78bf1441b8311e6768278c500f9b"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "6e09110842df2e9ce9485c99f8860c5b4099d827",
+          "sha256": "e75a4ac1a41df51ae8c0a48171ede1fe4c8c4710d827bd821cb1004c9523a093"
+        }
+      ]
+    },
+    {
+      "task": "calendar-sync",
+      "implementor": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/calendar-sync",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "a9686f317d8cbf9399ac00b8bdc903e50597fa58",
+          "sha256": "c2024d0893aa27111cc9b7aaacebafffad63ae5b3a5d4143c86ba8b3a98ea722"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "9be622c99008e7e34d1c39b6145f87175d3c9076",
+          "sha256": "88463a5643f92671b0989b5f33fb5bcd99bcc9e2ce17b367c7939d2473b95718"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "76b7f760ce9a9a10d7277a233f7eae1c79c7422f",
+          "sha256": "2b9286b1cdb017177b7668f6e23d70d31cb83a52ca73608e4b2c113639ff9206"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "9b8b9bea63aa2ad9f1777128732ff80de97b5a39",
+          "sha256": "1e8761ced637e763c6e78f3ae8c2d200128691e2d163b8b54e34b5e266375906"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "a07ba1f36254f8d5f3fd7439af7fc829eebc5a2a",
+          "sha256": "19306737ce262e2200140b0f17179b32cbb8a68807fa3194baae1531cfc2e108"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "contact-manager",
+      "implementor": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/contact-manager",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "37a564aaf9099c8cedb30fcf68ff96688e2611bd",
+          "sha256": "78efbb23ce438ab1b4f0a51ceffd1d828314c6d313b82e1fd92ae23a17e57184"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "047e004f43c5f76a2069e2027b65e740f1213acb",
+          "sha256": "4fd96d07443b9726b395748471f6213a13585152d56d659dd87e6630ccaeaca2"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "f61c99cd042d195a59bc1d378f63ab9a2924f9ce",
+          "sha256": "4d2d0b57e108f706aeaf3dedb769f8992bcbcfc0bddbb5401baa444a60791b1d"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "8f2296d2d0b38234b96d07687c8d26d1a0e3beee",
+          "sha256": "bb28424365bdbadba12f88d08659d00a220d799c86c1a011b5f35b5180b3d38a"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "56ed9150253f76819a49578b5447c0990160c654",
+          "sha256": "891c0f389a9d8382fc41912919450cdbe90b15ce00364abfcf73d32375333ece"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "reminder-service",
+      "implementor": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/reminder-service",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "e445c597a9e7a5d2de67a04579636694f3180d73",
+          "sha256": "3d10eac9380f55755e2d623715d79d63f1b1440c1c22a0e8532155a1c7a2ddf3"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "6d1f79bc7d57d98706b602af5f8a106237707ea8",
+          "sha256": "d9258fc0add05b18f25cad12888b6bc697043883466fb8feb38f736d5795194b"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "463abec43dab7601b7bfa2ae5fd495ab258c9e22",
+          "sha256": "d12bdbe7a72553a331c055c3f2f066333cc35e57bee61e541e5bb02bcd866994"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "booking-system",
+      "implementor": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/booking-system",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "9f31a9f20a8576fbbed62cd7c4ae87e70e755cf1",
+          "sha256": "d321467b4768fdd539adb7e6f875d964654faeb3aad858a995efb1023083c89c"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "7a39ea59fd17d6e918b7196ec1a5d72abcca2860",
+          "sha256": "bdbb5910f238110f17d2ec4f5a2651874244d51f4ef9baae4f5b3bcb5326dfb4"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "6db1275608aa5347ba9ffc9686e89b553d649587",
+          "sha256": "48f919b86d1a418f909a2124e95a4bba6740ac28ddab43335cbd444e8458185f"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "6233aa8b1ea587f2bed7d53cf8f4d2692a30a24e",
+          "sha256": "0fca2f0268436985a02d54ae879bfbd04abfe9388b8581e892741e53699b0251"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "4585d8e79e9954bf5f34c4f80196d527d71ea6c7",
+          "sha256": "1d04b65f0e117281f96a8c25b8e62a3baabe6c975ade45f6189efdd43ef7ba3d"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "96007f01eb708f5e1be3da52ceb877825ae022db",
+          "sha256": "9cce6ed72c906af9551c6703affa4c3a2565dc54f67ba1a9a5ebaebf847d28da"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "order-processor",
+      "implementor": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/order-processor",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "551b26678450a3109da2f021331e5c7b47340e5c",
+          "sha256": "f1deb79e52a615005127d34a5590e8970a80cdaaf0f2ed3e9286f0de24192b11"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "80c3094dc46fd6277a3edc355ba369dff9908fea",
+          "sha256": "9d17b8d80ed4c0c04edf3006a3008b1a76b85634cd7d6418b91e5c9b731192bb"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "d7be8a27076fd29d9800c597607bf995b0b4d3ca",
+          "sha256": "c97c8ba622a97db13146caac5cb60a176812a63f9680d04e040a8d894449902f"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "9bc4c8c2f543a3e00f2aaf52d3cac3fc4d61a186",
+          "sha256": "9d3fb1438e6c47a6cbb25877c4b6e598a004f52883bb5c5b6d49412d5d4af9d1"
+        }
+      ]
+    },
+    {
+      "task": "shipment-tracker",
+      "implementor": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/shipment-tracker",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "8ffb5d89c371aa407343c2939c66801f06efedc0",
+          "sha256": "9c4da728f6bbd60f861346b47d40ac8fe06ab4dfea0b09c916171f101ae19d89"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "514db2bd7b8dc61995970cd1e2e3041c9f06def9",
+          "sha256": "e07e9cc96db696ae68150291a1cbb2941b2f4ad5c85135a76a9984057a9bed3e"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "62b0f5dee47a625768c19307ea01c59439a65d90",
+          "sha256": "c036ddf143c982aca67508a4a65ebb7ff6024cc6ae248cb6bd48248643fb8953"
+        }
+      ]
+    },
+    {
+      "task": "product-catalog",
+      "implementor": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/product-catalog",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "d3a114a3596772e5ac400dc35fdc29d4e96d365a",
+          "sha256": "21f4a5ce48cfb9f81dbe3fd912cdceef108f2d63701b568edcb7de8953b16c4f"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "c246972a18fef82bf5ab87e73b7e3dd4c0ddced1",
+          "sha256": "064a411802e88672d4b141aefd3f9427ce1fe3b1d719e8d23e499c214c6d9c3e"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "b8e7ce47c5fd73414624e52974ce17baefe827e3",
+          "sha256": "4b3f825669ed55cee5bd56042e6221a7179a86ff974bb42594160567d8199051"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "aa5ad4fee1fa6eb3248c4003f8848f3d6075344e",
+          "sha256": "008db6c1add3281fe5812a332abade305bd759ce91e96e61d61becc919d12ae8"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "15a9147f4513299969477158e87bf807f5edb214",
+          "sha256": "1d37e6c2b61c78f53d06788aca4e27eae55b4ef2d029cd0e15624846437a09ed"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "qr-generator",
+      "implementor": "junxian_dev",
+      "source_commit": "96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "source_path": "tasks/junxian/qr-generator",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "8db26807ba38149e429f8f4aba83c8d011541d63",
+          "sha256": "ca83104c1dcadc0c26e6c721420996322b3fba4bfc079fd5336e9f3ecca6c3c8"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "2b426d9a7901bbf0d468d3f9fa22dafcf2cd008c",
+          "sha256": "6f681d03b2f8a2ce942e66f49123f012e82136054e07927f4fb25b63902b79eb"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "e90d40478fd954df2b7c9548ce56895fd193881b",
+          "sha256": "6e8f8b0a82ea792323b4b57899d839ac8fe1c56dfc104a72bfb1f09ca497491c"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "c973acb75e915c0b66a0a8767c1759dc5874e61a",
+          "sha256": "b0a90b60a69c1addb79fa06971d696e2b4e4ce53a7bb3cf52bbea475c1c71c61"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "c732c9722d42fe395597d1a58f4b14dae8ae4a85",
+          "sha256": "eca2fac2203e8dd14d8f3b989bb85f0cb8393287849aff945e1cbcbfe1e19e30"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "translation-api",
+      "implementor": "junxian_dev",
+      "source_commit": "96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "source_path": "tasks/junxian/translation-api",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "0f764f434788638ec67717e2ef5fe4d533f1a277",
+          "sha256": "696f2ac8abfee666dcd551a800b4c9b6ca99ba33f2675ddcddf6e9a657c7a5ff"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "6e1f7dbd9f10355b889bbd298d4f04184fae2963",
+          "sha256": "2dfeb8d451e3240cccbae59e1e9e5644f85af7be466744bac54bc7828598739c"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "9393c988c7ae582066b8ce2ee3bab42ee03ffceb",
+          "sha256": "058d302c71044fbc758c402c0bd8120261097075a11f843764ba97d60a79ed19"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "66f7f8d2aa9f3a8e12a8b2ca7596551f6b7b6759",
+          "sha256": "36de0c7caf9333cbf309ea5e4f4a598140ef4be4289e632f60f12ddaa448b87d"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "crm-system",
+      "implementor": "lueyang-dev",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/crm-system",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "aed247732dfcb2aa1e5ea9630626ca867282307e",
+          "sha256": "b8951a5bdc4f8b2dc95f56035ad93b56064ae5c0717aa65713f857c8b7f9cc86"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "e99bf9b1a7b9de74288af440f69db4847592ac62",
+          "sha256": "a1156180e3cc1e8e2ecd900c52d984aed44be6d69d80984a394f682e61a3e214"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "3200c3655e06c0553894fe203e877dc8da945f25",
+          "sha256": "b489043d7c3674f546ea79ce219d6451b9553a4592e4611c19690eac69f97282"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "b0218b569f70f338a79124893d017a14582b5f38",
+          "sha256": "1c04194f639594e7f9d311422fee2792279259a28178df84c6bb2d0dac6640fb"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "fd607ce9183b1793dd474638dbd68a4ac8aa3521",
+          "sha256": "d62c4d20f64330a2422e4272185e6b390419ee0cc43f94cc4c6c2e63918f569a"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "862860d2ef59948fc1686d1d8ce95658943530c4",
+          "sha256": "5ffb38d2fe6cf9b1e917f047fc24f79e0f7e89e758f8de71d8fb14d57121c286"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "sales-pipeline",
+      "implementor": "lueyang-dev",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/sales-pipeline",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "2dd7a0dc2d72ecc26c5747d30a40ee5de3786708",
+          "sha256": "4ed2147a0badb01211e258a4e04379d68c55db5e40cc36bb05686963ed40c2f1"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "683835d0289a34bbda8e6abd902eae10a552aa07",
+          "sha256": "e06542adcc04241b1d2788e8d2fdc23d44b778a8fb703b52e3740e41c4952d40"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "bef059eca8e7d6055ae90d8d89af5eec90a8fc64",
+          "sha256": "2e3faf55c86241534efe0980c43ac17b412e2ece7b9dcf317168273d02494019"
+        }
+      ]
+    },
+    {
+      "task": "deal-manager",
+      "implementor": "lueyang-dev",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/deal-manager",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "822d0dce4136a7099d835616a2ad4e7dbabd83ea",
+          "sha256": "0573dd076b6989a34c08c0acc70e0390962581fb54055f2841cf991c1314e9eb"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "485125d05365a3496ea634487f779aaf4ac54f0d",
+          "sha256": "e85b2601da4e255ac98d2cd3ab0c6203d7c7990e6acd9a5dee00702be09fa0dc"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "ca2d0cdee461c21f47136a1ea1acb1a080c4c734",
+          "sha256": "3def9d002fef7bd92acf6ec255269dd06ae6732a1e6010fd71d4a0ec9238dd01"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "771c7bea48d247928eb5451fbbb1f744d58bfc60",
+          "sha256": "1775afe72f124142471e9c4d23ae203acc4056903e7599661c1788ae68374515"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "email-campaign",
+      "implementor": "lueyang-dev",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/email-campaign",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "b5571ff0b8b29deac98e697c5eb8e883a532f763",
+          "sha256": "1f08311a25d8cc4d8318bb72dbcc45c0eccfdc171f0cfa98a87cda412392195a"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "bfb291790bbf84957f9ced0f353ddd041e3bc8fb",
+          "sha256": "f14378c6ee30eb5c32d997c90e8b256afb4717f8bdc6106feabb44a07b38d83a"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "d02fc5512ae724903ba89bd35ef57b57c49bbe72",
+          "sha256": "585ad4979323dec2e761c2a7bea1a1a8637013480f5989aa44c2f00e2ee4ffa3"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "3ad9498d28802ad26a2c4cd8f7b3505e5f2e97c7",
+          "sha256": "bb84dcbf57ce16a6c1128375c3b8123484bcf54226e5773bb03d1250e9fe4bd3"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "b594bff06f50288d1372cf0b869d924290ce8e8d",
+          "sha256": "40565689ecc2b0c4a22ef4a4133425c9dd548b0b2eca744443b04b22ddf4e4e5"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "follow-up-reminder",
+      "implementor": "lueyang-dev",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/follow-up-reminder",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "1179aefbab97d59e6d3630ee1156b159a023c167",
+          "sha256": "3446e31bd419022ab7049e3e77f9f085a529442309b99ce8abfdf44e74aeeaf7"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "793f1e2b6bbd40198ef47473d6b5a3b3b00d6fb4",
+          "sha256": "231fee5f648130ecaf8caf2a5e2a90a9a33d7ed1792e1ec7d3dd3b5bb583f84d"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "da206470878d2fcd3036c98103e41374e8a00021",
+          "sha256": "1457827791ed178278605607428aa766664e6537e745b7929a9904e72d624c66"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "659cacbb0b821a3c19d3d60421adfda1dee7281d",
+          "sha256": "9f2e9cb7d15d7713b12df1c80138538cd82dddb804578f7dd165154f9b31a205"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "e53072f4489925e86ab63e9139ac46ea57a95c5b",
+          "sha256": "e212529cf09aef6ec86c44e96a6069338a36ab40ccd75c6753a1f9641f9bab23"
+        }
+      ]
+    },
+    {
+      "task": "activity-logger",
+      "implementor": "lueyang-dev",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/activity-logger",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "7a82a562e46f10f38686207de278b025e71ad4ef",
+          "sha256": "1386da0a900c5765a8836e492248051d694f485c4f3ae2a862e3606bdc4f988c"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "07edc9f1cfe064d09b7be11ca2b4734c08576e9f",
+          "sha256": "47ae4cddd2dbd4da53c028cc7d92dbee63910f57dc9c251b0618bc6385e6d6e4"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "da1a27fb93161168ecc4eeb7c35643d2b9b36094",
+          "sha256": "f414b254aba5f668b1408e262c3652da5808715bf8e0e7148548e45b48430491"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "0f298beb21821c4db21c127480e884e38c18fae4",
+          "sha256": "7f81725300e0084da3263a6d2069cc6099138ecf21a358590e41f22a89884a84"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "452e4680c1b6da081ff40b73c7999d3644b92e89",
+          "sha256": "eb81fc153bfa04048d5505fa35edc676328a3db47e61cb513c7b78f550a35f99"
+        }
+      ]
+    },
+    {
+      "task": "chat-bot",
+      "implementor": "lv",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/chat-bot",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "93526c818769a2eb93b8100787270a9e24c095c1",
+          "sha256": "4d5f5e1f12f89483678c9a3d1a043fbf5805835c5fc50065be84d9634c8564fd"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "333f77688bea51dbd2dc881b606d7caf92daa7cf",
+          "sha256": "be30f2035dd6ff2d3c5e1b38adb6de5be980b61348c6b21d6d2833d1f939699c"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "1655610d1ab930c63034e63449ed45edf0e68511",
+          "sha256": "8952a8c97d1f6ba3dea79bfae07a4edd730f9c0cc7e0ad4861c85a6f16b1e8c3"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "c8b7543e0f1b17c0c421ad8183b43bc7e1336bda",
+          "sha256": "131b007d695e459a45773a523933b0adca924bcaf23579b0bb72111b7cd7ced4"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "949b059ef5b74403f49adee71c724dfa49e87c2b",
+          "sha256": "78587de64667715e425b02942fbd71e6d82527a3882dbfaf3bbc97ba1fbe748f"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "voice-processor",
+      "implementor": "lv",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/voice-processor",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "18f5747c4501733029338f2a5da8bcce069850da",
+          "sha256": "99bdd6ccba2e083fa7c707939db7fd25ff2ee58241a01894ef3f6b431debe39d"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "4a07ed721358b824dc6f6f730a1501800a243718",
+          "sha256": "11061bf03bc98ad40e63336bdf649711a3a2bf368282cc8cffd45541a5cc39e5"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "93cadbb437abedce8fcb235c4ce1741439bba9a3",
+          "sha256": "8b0a4542e086840ecaa73aea62e54ccc3d2f373fd55375ddf9b56c3888099fd6"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "2e91016fe65ba9d74a5f491211a477f9a139a305",
+          "sha256": "2e16de23d6d5d2623b3663c03a640f7e66256b0462534e0efcaf3b2eac903aaa"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "sentiment-analyzer",
+      "implementor": "lv",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/sentiment-analyzer",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "15552e6fa79e783c9a3f6ffe95201998693e3110",
+          "sha256": "fab5cbfc6cdd083f63cf6303ec35928107c18e6c2ff4dab9efe55839343c2eaa"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "8fae54191c25c52f8dc5c55760896acb756cec57",
+          "sha256": "5c8701876fc62766cd5b762cbbe6dacf239880deebf101c8682b1b7e1424594a"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "e1d8d5a33a9891857e36f7798e9d6094546ffd69",
+          "sha256": "03a6877398e3a5434c18e36b10e0e9b596cfa08da2155d4ec9536b34157b4797"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "personalization-service",
+      "implementor": "lv",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/personalization-service",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "a5a746fd57bd52ff20e8801bf6a32ed8e39d375a",
+          "sha256": "a475c279d028be5275bb42a300a4415cb7395d3c4d693573242aef1152fdc118"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "6bdbf2bd286948414a732205a502c9e06336ee2b",
+          "sha256": "baec0f42933a1041d24449096e969de9577c2228a1071467cf3602fe53dfb8a1"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "75683b4a6baacc47daf8991e7a84e532dfd0be1e",
+          "sha256": "79d8593c105de8e66f2dc77b2dc76b6f86bfe09e49768985a03bfe8992436f41"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "feedback-collector",
+      "implementor": "lv",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/feedback-collector",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "a2f93a5f687816bb7260a7df1eb8b3d0efcac228",
+          "sha256": "3c39e83422b06ae63f05bec368f1564daec149ed54cb805af98da5208a0a40cd"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "0a80d28b35b96121a0fe41009bcfde09c8f16f08",
+          "sha256": "f37de3faf29001ccb50c5b54424eec00594e9958078b4c58418212f4571fd2e8"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "1dcd2febfff0e0cf8983ea0d235a805020521ddb",
+          "sha256": "2bced50ec34c83f4288703844b2798bbd398befe6d601a1dddc0735b092c4fea"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "987379d7c349b1082a48e3dcab79957f6ef6f684",
+          "sha256": "f899582899b9fbf9bac592f2afe7254e15aba452d871508b3a2d9ea12fcab2d0"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "fb367d1db387cabe5d03204fc154058af3d38565",
+          "sha256": "03ae67bea1224c06eeb4e3406c321d175f7e9c3f2d930eacebedd5fa8aa94c14"
+        }
+      ]
+    },
+    {
+      "task": "expense-tracker",
+      "implementor": "ruige",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "source_path": "tasks/ruige/expense-tracker",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "dd1527c8e113eecde97aee2560abefa0b84b47a3",
+          "sha256": "fe4e8f4c2b20c131927f08294f60947b835668b2620086589dc28dd8cb6b46b3"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "2d04cc17877d1478cfc19a16b7027502b44e07dd",
+          "sha256": "814c4d3fc5a6f20f07e8c628a1edf84f08e9d757c577f9575c50a1a2689f869f"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "f33b43ddad7e3c94292f11ce252d3e8b94f347ee",
+          "sha256": "d417d2e8d8b58df4122c52281167812dc98a9c3a00c19d807cc0cffa963a5a1a"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "aa44f7e511c249d1af973b84864d65f3783080b1",
+          "sha256": "7400113ecd78e1fb4e85fc65281c4dcf500205f5cb22e55a89391504e2c9a300"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "data-analytics",
+      "implementor": "ruige",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "source_path": "tasks/ruige/data-analytics",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "30f7f40b714d40557a8ada656d89738fe37e3d35",
+          "sha256": "a1a29789cc03162d75383e02bec8bb84875844492d26057d8a68772f5e36a9d1"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "fc59c3f6f70d04cc8619eacf7308d9aa008ab026",
+          "sha256": "787b05d111e3583e2078772ed791cba8c6f24baf8ad39b90c00282538d7ee25a"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "da13921e56f67ae3cb3cb803916fea1328a7509a",
+          "sha256": "2b099051bf1969217d08020dec2845acfd9e52b3b90390bbebd4d5548b933c84"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "a75ccdc4512d71a637add259c6bbcee983869014",
+          "sha256": "accb88383c7f44671b614dd1c2e8591628828237b1389f3306e91923aee40b8c"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "canvas-automation",
+      "implementor": "ruige",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "source_path": "tasks/ruige/canvas-automation",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "57542673b49188ace285f62695180ca38460c3e0",
+          "sha256": "3fff7a3789f0994564c87089215e5198a1052b89363f928fcb843123595f0edd"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "c5909995cfec709d73b8d22317b5a6807b773430",
+          "sha256": "99af8f2d9577f42f3d88de420f4f8089376a0914fec57cb660c83807e86a667e"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "c0511c9c52bf305918e9ee91131308c7fc369c50",
+          "sha256": "b223eac8426301385b73959a2779d64b376c046294a36b0bca05bcac2aef48cb"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "da813cedf9c2a6c263ac78134b5632af19ed141a",
+          "sha256": "1448b6764c9da39d6cfde35a20af5e0f082cabfd162fce545b463c60d5a082dd"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "file-manager",
+      "implementor": "ruige",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "source_path": "tasks/ruige/file-manager",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "cbdafc0c1771b91fbb7d83108dbbde1fa740e2a6",
+          "sha256": "4d5c44ca59f5415535db53e951778d64124575e2c4539555fb6a7d387a989045"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "e47e4d2eb2cf76d40e429233889c96121cfdd1b9",
+          "sha256": "c73fd2c38ed014f2570c1b7de4f7fb252403becbf32247ce813f464b5506d67a"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "c2121537838967a339dac0eb02d379a68e783404",
+          "sha256": "73bdee3473f6810adbff80c08a81f541670f91d9bdfa61e098ab317c3153c535"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "39066d1c18ce88edd90983c9a399f868509f68a5",
+          "sha256": "aabab2c65ce7ffc0dfaaf52a853749030498fa4ae5c08fbe3425f3745d5696af"
+        }
+      ]
+    },
+    {
+      "task": "image-processor",
+      "implementor": "wenshuo-dev",
+      "source_commit": "d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "source_path": "tasks/wenshuo/image-processor",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "c738b9ebe133115b5536f7ee1d086218ca4e99b1",
+          "sha256": "ee5fdf06ddcf7a95000ca59782a3573bedf170630ae24897462f0c42933a7f61"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "6f13328b1879ea0de0cceb14a4775d61b5116294",
+          "sha256": "7aa2db9fa8dd1339a57ea3d1e58436a276bbef8be7b130688f8503a57a5fb25e"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "bbbda1442d34b6be91a733095116f343d5d66b90",
+          "sha256": "796c16abbf4104bd31167e31e9ffa24112063e04ec2fc5fefa9c456b2e25a469"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "1c088069188713e74fecccaa4f4e8f9eda7ab4f5",
+          "sha256": "55bd12c141425d5127cec0d2273d607104426b5bdfa66193f6e97f2a9b03f160"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "72e4d939567bf3e5f36df385066aece2b804c516",
+          "sha256": "ac74a8419e42f5517913761705b7a2a46c22d95de89d98c5f89e504b27f6e4b9"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "search-engine",
+      "implementor": "wenshuo-dev",
+      "source_commit": "d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "source_path": "tasks/wenshuo/search-engine",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "ee8bd1152adaa1febee6a545afe869f82218066d",
+          "sha256": "2d9b21575fc2ef6503b4055e943f087ca9e9e1b4272f853dc57fb23763fcc24c"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "373d85d588537e49d0a006a3004ae261dfe44acd",
+          "sha256": "a7d4865759bc37bed390d9d2d392058ef02e1e31fda65f0395cf4fa82bd0bb75"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "920bda31ecd9b20ef8ecab98034443badca8c004",
+          "sha256": "3e5a55159940c347334bea837fa31f1a6bee6c61b1254370701e1111901d58e2"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "2bbc1fbf452f20340ee486184e43195cbc5a898d",
+          "sha256": "b520b7bdcb2b0b04846656e3b9d61f511c88617a8058d0af3ffbe3b31b976cf4"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "3a498c55ca910a6ba023467dcc39471debdf8e5c",
+          "sha256": "2e2258ab36326465f00ca3de23a0dd525d590fc03f4751b8c789bfbd00494f30"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "82aad236774f14678654ac72ce6115319d3158ab",
+          "sha256": "bfd9e8575394e4b9e8b822eab3abe0a142a21af9c135611bd52b1f30c83fe164"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "security-scanner",
+      "implementor": "xiaochen_dev",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/security-scanner",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "e745356d4926ddb8bc3e5c0b962d40db2fee99ba",
+          "sha256": "49662cc093cd87e71325c6d8b545bf039148b134ea5db2c43a0fd6d389e7fb45"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "1199f9a9047109e31a6032683e31b83e2758b0e7",
+          "sha256": "485bf0c1f97530882af9f37ed99c7770ff7cdd4034ad5dc5cbac5d9e45b6ad2b"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "aa598887d36c39d12ee0900fd4e80f42647d40ef",
+          "sha256": "1c816502b8d2ba434591d4fc4b214d9ec29df292825c6ab6014093f4f875df41"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "8c0812f9acde523b2ec33a95b11ea343a4923a5c",
+          "sha256": "818b6c3df9e65bdb3af13d088c197a9a25a7b617c1014d5995773f588d4def3a"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "78119296337a3f0852b581afc89b037810e9ce26",
+          "sha256": "8a1bb21657821aee0174ba18854f141cdfb4c1e6b5de6eaed3081b559c81ae1a"
+        }
+      ]
+    },
+    {
+      "task": "deployment-tool",
+      "implementor": "xiaochen_dev",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/deployment-tool",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "439254e7f3f367bbdb78937473c1370faca127a0",
+          "sha256": "5b8d7f4db7a1284a83b334e24278dba7aaea778a8e6d02e256b4d3e80913ab31"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "d2ed062095391518fb6782a6cec664197ee1ce3a",
+          "sha256": "7ad393b124406d3dfc721349a37153c2eb76fa7ebdd88aa609e0a0f4dc639435"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "0f8ca4f49eb0995292794fbe362a0a2faabf3fa1",
+          "sha256": "4972bae5005d0c9d026dddd1f064503eb21c966baf913a95d8e959cbc8aef6bc"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "f51f8d260c56e40e8f0ef31ede8abcf613398665",
+          "sha256": "a8bcf32616c6e4770731ac0c7afc451dd5b5e97dca288d43e20f07b7b244099b"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "059c7ef13be2d6f6922e45043f5a87da07d274da",
+          "sha256": "dafca40a2c948f3cef195fe248b62bab08271344a8a4c9557cdf8cdb27353173"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "error-tracker",
+      "implementor": "xiaochen_dev",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/error-tracker",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "7edfe1654a2825a42d61880372c0abd701fb5edf",
+          "sha256": "3392b84a66b85d5b03ad5dea1234dfa9deae8b344789f013e4d2950bff075690"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "c405eeb6f1b98d809dbee2958bb85d3b061943d7",
+          "sha256": "649a87c943247c5cffa5af547e40fd29fbf7e8956e1863c2a659fe28b54a67c3"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "98124156820c91c9ee809b9442a4b52138f46abc",
+          "sha256": "17fbc7006a74ffe6c35c77964779b121971c55acf72e2c94a43b5cfd879e532f"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "a5a871584aa65f2ffcbbe382c409baa16bdb3464",
+          "sha256": "a389df3d5fdf204e1bfefced1c5c6a521de538a372969b1171a27597515ca1b5"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "889635f3d8493187c9551df574b31a6fe5ca5700",
+          "sha256": "7d92ed96867c27e644ee648a151ca4f4e4f778bf75c0f6be01a7d5d5db9586ca"
+        }
+      ]
+    },
+    {
+      "task": "backup-utility",
+      "implementor": "xiaochen_dev",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/backup-utility",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "860943ea765cc2529954cd0b4970c3ca03cf983d",
+          "sha256": "d2aad1d5ce684b4c68136c2b8a764dd7bfba7928969bb4f443761df2b5ed60cf"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "df94e32a20f60177cdd730f49d29fc3edf8e575e",
+          "sha256": "8ca0c7c44f7d59ac41561d09029c8de7d1f6cde8e4900c7f40f7330a983f986a"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "c73ac7574c582d56dd988947e476f9d615d75786",
+          "sha256": "5db3c44cf544f369bf3ef3ba026003a8aedd61c4ee75050688d799b455c78542"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "monitoring-agent",
+      "implementor": "xiaochen_dev",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/monitoring-agent",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "f1d59a5d391b5761835db741f6a942c01c27653a",
+          "sha256": "57f2019d511a7166717e71836bd02818b451a98f42e6eb1c663b21226583cf0f"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "eece2322fe63c72a3c0ea9f1df8b434137c14e90",
+          "sha256": "fde6d120b2b54cfb99fa99aa25db610dbbfdc14b50e78d7f67e3819c2c54f61b"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "3363334252f44878e898d7a4fae802dd6844e231",
+          "sha256": "a7b90af0c051d929271d7cdd82c37dcd9922261aece13dc3c06cb40cfd5fc37f"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "34bcbbe1f6f6f96c42d98b8ceb2ad5eed4cd3200",
+          "sha256": "3d018e5c8bcc3eb4ae3f5eca37cbee4ab28f350782796eb9be253d294822a267"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "content-manager",
+      "implementor": "yuxuan-dev",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "source_path": "tasks/yuxuan/content-manager",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "3416a4b47d329c938f120b6248e9b3e28d258b8e",
+          "sha256": "a187d2e3f47f2e3a786831f332a54713f35d200f6d55074d84f1eb157da441f5"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "02802002d11bbee5f45b22104cb33748889a8182",
+          "sha256": "fd956a184798d9fd6e529e81ceb43fc13955087f89aaf5c3733578cb13a1f1d5"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "3da6f472407e19b4cebcaa0cfaa79c4333e49ee8",
+          "sha256": "728c5e3382f09699e173b774ab4681fde1342e383b967a62a7c1464aa18c6027"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "982a15a5b39b53f36910a059262fa96900acc75d",
+          "sha256": "9db3850ca1bf4619feb475e72b9f0060567aa34ef203f427778d190d74e85711"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "44cb7891244e9588c9f1b0bce289eb4248e4b9ca",
+          "sha256": "f5e82335315e72c75d5301a300544b8e89e306c9061f2aeaefcc1a042830928e"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "b620fa680180176c6fd35f999f5024c398c1773c",
+          "sha256": "59cf13c614f109334f1aa1718f848c40daae77f6e559956f6d33ec2fc685d8df"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "asset-optimizer",
+      "implementor": "yuxuan-dev",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "source_path": "tasks/yuxuan/asset-optimizer",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "f804ede58fb9fd01292c3bb67a794fcab12a94b8",
+          "sha256": "538623b5060884e9b9f1bf8ce0e2a3a47a9ab15d4f793ee0b74c7454d3a18921"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "3fe083333d57ac523223568a0125fc66e06dc852",
+          "sha256": "6e33e0146b8e3996238b4dd793882959bbf306a7914bb6b3e5fd20064469f9b7"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "ac0fc2e202ca29d0e061b5fc90be45414099d48d",
+          "sha256": "728fe76fa356f1c7220d6379053cda5bac797e28c3d97ab64021281a17b3b190"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "003bd9662917f7cf5800dc7e2ea77efbad28798f",
+          "sha256": "54e6615dcb71a12f11a91cd279775c7af8f418e1a62d04c0483096bb1650dbdc"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "037e22b77b8fa2fd7f6a2a19cd125dd524fb5072",
+          "sha256": "0527c020433b01bb426598805539974703c5511c7c1de7eb772f7c44d00eaa32"
+        }
+      ]
+    },
+    {
+      "task": "network-analyzer",
+      "implementor": "yuxuan-dev",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "source_path": "tasks/yuxuan/network-analyzer",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "69f6a79bc99e06a3474d552900a8b1925a668d50",
+          "sha256": "5958925156d4cb033e3b787ae6bd6a43f496cbf6964a711af8195ffacca565f1"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "474295ab9a63e34b404e4fbf40458e2f8c388663",
+          "sha256": "c505931e2b61c930b52bd191348e5a20ae7b11869e3e4b00e6ec0ee86f56e759"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "38306e8f69d42cb0c26a07c00ebeeb340b2b0ffd",
+          "sha256": "4da813dee52a23845275d640d71e398cf21df84270b974ea1d84aea33e060f97"
+        }
+      ]
+    },
+    {
+      "task": "task-scheduler",
+      "implementor": "yuxuan-dev",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "source_path": "tasks/yuxuan/task-scheduler",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "a23389721fb17bbca0c98f786025f0a55cac0374",
+          "sha256": "9d6dca5167df32e22af9d824a1a2ff30e1dfce9b841e2fc4f0cb5a645beae50c"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "0df5feb41d8e485181589d629e13008ca6b8a843",
+          "sha256": "df387f6fdb2c9653b77a8545c53c548b4d2add79127948fe2d5a97d515500203"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "07f1544b37d8c9e252cd49831d4f8f126deabf1b",
+          "sha256": "9e0523ef9394d2a4039322c82f9455a277a34a20190cef28105487b0b011c127"
+        }
+      ]
+    },
+    {
+      "task": "data-validator",
+      "implementor": "yuzhen-dev",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/data-validator",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "4fdcc385006691101b328791c081dcff00f0eb52",
+          "sha256": "3332a45218d5e863f8f1806aa245c50e726e2101b546c1f9f22100758493566b"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "43c54ce05bf411c675595b3531d8da5249793e9f",
+          "sha256": "630d9816e5d3230ec6ace2031c5c1f162715c748e5750dcbc091e31914d35983"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "ec160b52e6c25a3b82ea801647627505220c41fa",
+          "sha256": "6ab3525b1d54be6475f06a3ecb962481a9773504d238a666b6ce805e9375b78c"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "4613c754e34d5d49ed8ccdfd523e5f9ed4619c81",
+          "sha256": "8ea5e549cb8327176944c8eb41c843be895dcb9c157980cb5654de0d19b8a475"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "form-builder",
+      "implementor": "yuzhen-dev",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/form-builder",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "870eb246b060e8f27a0e88a6c2ddea1ba7926f47",
+          "sha256": "ef2b14eb3dec6a21b7c3392c5e66396586d002755cfe4a80b6a5495aa4a94311"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "c51655a9f857be1aa69df47713602e4bfc8910ff",
+          "sha256": "1cb7276736655ca353c5777250fa55f763114137d39072acca1b44df1f37986a"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "b0d50f2cb2a54e4ae50220d09023200577f91886",
+          "sha256": "91545e7b31cf8c9143ec3a2747a579b52834df120eec5802df187a048f079311"
+        }
+      ]
+    },
+    {
+      "task": "permission-manager",
+      "implementor": "yuzhen-dev",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/permission-manager",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "6ea4a757b1c5355e13fd8c60a1112a390ef734ee",
+          "sha256": "dd6db83d71434e1d8d8c5015636a54419373f34b71aea51e7545157f871ed019"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "fc0d74d29fd77c1b941be474d7564842cdae8093",
+          "sha256": "10d6ca92e266126c3eb3554189d7db0820a95ce3758be78637f672b1a4508bc0"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "30f2138eb459341c7f24a969ca6647c86084fb7d",
+          "sha256": "5b9374d5f6fc7aef99c5f64b4e1fb138078d0db77fc10af51b71c5d11a132e22"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "01a1d345896fa4f6daff621e073d14f082d718ef",
+          "sha256": "2e2d2310a00dcab6ebda5f9ed95135471fcec640b9271ecb1149f1d7ec4b027f"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "invoice-generator",
+      "implementor": "yuzhen-dev",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/invoice-generator",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "c293d75e1e1356dbf45b01b624684863e7eac1b5",
+          "sha256": "c7c234934ea7b08521e8a94ea4775015d0b3e5bc5de990f88103a404c1cbcddd"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "a474010b52142c80d6819c6fd3325ee1c3c6e1a9",
+          "sha256": "6bbf728923306e118b8ecc9be2b4bca3e6e6e6690eb80d0f2617db5d3e74d0d5"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "3ee457d91f4bb51e4916a8c2da8f36bccf92f2b8",
+          "sha256": "2cee5f811a637e093862da0adf6c1a6ebc7b69cf145b4668530d5e09f0dfca28"
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "git_blob": "440f4424b1dd8fe42fe9b9482f1581305e383376",
+          "sha256": "7738d7fbf1d97ff6d5aa2a006b96edc8bd7b737a4b9b1d1123ad08ebb2202295"
+        }
+      ]
+    },
+    {
+      "task": "payment-processor",
+      "implementor": "yuzhen-dev",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/payment-processor",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "2dac5ae1038b129bb721bfffbdf774822956de98",
+          "sha256": "fa92f510402b33545a5e1be32631de4d75bf44afa2f6f5df8c716a7b5ca3c122"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "7ab01099d715c4b3a643280464582fabfd590e32",
+          "sha256": "3df14e16302452226fd23e206b683bb39a030fc1b307dc87110640bcd3d76294"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "fadb1bca67b2a0e7869ca5302fa2d413386506ab",
+          "sha256": "d07e33458cafc9bb2babee5c88e6473ac098f7876c41e90be18c6d262367459f"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "7b815ec12ed6cd461921ec5d3f0293b21b16dace",
+          "sha256": "0f444c4ab711e1915e15b01b9cbb3b652098eb29bb926125ed27a4dcd2c81e1e"
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "git_blob": "f0bbd0d0a6729357f09f78d2e4a809a66f481d55",
+          "sha256": "0754fee6ab439d46a29f49ce8e10dd14203fb9e7503bda2b302b4f419e6ef380"
+        }
+      ]
+    },
+    {
+      "task": "alert-system",
+      "implementor": "yuzhen-dev",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/alert-system",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "daf846d28fc258b794e052885d0d782356efceca",
+          "sha256": "3c8054ada9051dd23dba7cc516fb513fbaa957eddaa8109a14b43d7f0d88fa04"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "eac81c97cd8eebd513af6ca025bf49813ed834d4",
+          "sha256": "9eb3bc5027f551f856c085aeddc3d932457db5c1d72f54fe20d2d7781cd7cdb9"
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "git_blob": "4e3eea68322462c2a8b9d5d65be02fd8cf74f23e",
+          "sha256": "1aa4433ec29bf4795fe2a8bcbff9895f4139585ca06886b9e762175a83c6d78c"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "3ec09e6e52ec5c40eb0399701e631efc1066d054",
+          "sha256": "9c40dcb41628cafa79f3aa2df2aa4398355fd45ba219a9f3108051800fc0495d"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    },
+    {
+      "task": "template-engine",
+      "implementor": "zhaochen",
+      "source_commit": "b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "source_path": "tasks/zhaochen/template-engine",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "f8ebcb9a7522610c646696f1886e73a93dc4303e",
+          "sha256": "9a2809fdf6f8efec1edcce5f7c0fc97df0bf301d6158789a69270a656e572be1"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "639da1accc77ad51ec2b00e1db57e01cee30638d",
+          "sha256": "bdd4512edfa9d482a0345b4e612781a9591c37560448abfc7cb5d986814fcd1c"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "e8fc0443dbbf92f6ab126837ba02d9981b8c3d22",
+          "sha256": "f7dd78c1232c4bfa7d2b6cc2e575a554e876690e5453a3e0d82984ab94508272"
+        }
+      ]
+    },
+    {
+      "task": "load-balancer",
+      "implementor": "zhaochen",
+      "source_commit": "b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "source_path": "tasks/zhaochen/load-balancer",
+      "notion_status": "implemented",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "git_blob": "1c2b01c2794000ece302b598364fe2aed79bf7f8",
+          "sha256": "2520859755e567f379f7ce23cb965f402277c2fa86a71a121a3eee185019f45a"
+        },
+        {
+          "path": "docs/task.md",
+          "git_blob": "7c0a385ca9ec28286b83140ca60494e2644753bd",
+          "sha256": "e81be547c24465b51415049847b5edaa2dfe2b78a3a2e4d0a55f265ccd4454fd"
+        },
+        {
+          "path": "evaluation/main.py",
+          "git_blob": "d052e55c9bf85e7a4d66d51f8d71b35cc728c4c5",
+          "sha256": "f42d8e4e7634f9e6d0fd31bfecbebdd7014f6f8ba74dbddb27656d93d84eb436"
+        },
+        {
+          "path": "preprocess/main.py",
+          "git_blob": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "sha256": "00d772691761e36cd57a3b6eadb6b794a28921b7fe2729f781fc33dd649cf4bf"
+        }
+      ]
+    }
+  ]
+}

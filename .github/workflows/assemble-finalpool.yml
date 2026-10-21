@@ -1,0 +1,75 @@
+name: Assemble Notion final pool
+on:
+  push:
+    branches: [finalpool]
+    paths: [.github/workflows/assemble-finalpool.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: finalpool
+          fetch-depth: 0
+      - name: Copy immutable task snapshots selected in Notion
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, subprocess
+          selection = [
+              ('fan-dev','fan','8b90f34538e4e106eba103265efaa9a456be498c','price-tracker coupon-manager'),
+              ('gyy','gyy','9612ffff37072726292c77df0f4c6db2f8df1bbb','blog-engine cms-builder social-publisher content-scheduler'),
+              ('haoze','haoze','e0072cf979548c56984072cd76f529c7beea59b2','video-trimmer subtitle-generator'),
+              ('jl_dev','jl','4e2b63f5dafce88b60886ed6e6af7bd9a8966296','email-classification-system pdf-report-generator canvas-grade-automation'),
+              ('junteng_dev','junteng','4ab0c5415824d799c3457a26482f9b794c7e9e93','calendar-sync contact-manager reminder-service booking-system order-processor shipment-tracker product-catalog'),
+              ('junxian_dev','junxian','96bbc11b6fc701d07d961aaf070c434fccd1794f','qr-generator translation-api'),
+              ('lueyang-dev','lueyang','bf8b9a1d25edd81b158db0bb7f49d8624348e74d','crm-system sales-pipeline deal-manager email-campaign follow-up-reminder activity-logger'),
+              ('lv','lv','0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37','chat-bot voice-processor sentiment-analyzer personalization-service feedback-collector'),
+              ('ruige','ruige','a6f3fba387f68acaf6517803e88b40a4a3c52658','expense-tracker data-analytics canvas-automation file-manager'),
+              ('wenshuo-dev','wenshuo','d11080ed8d65fb72eb32d9353cb20844b593f9e8','image-processor search-engine'),
+              ('xiaochen_dev','xiaochen','20bfc73490dcf4029b92123b6055e076b7eb5dfa','security-scanner deployment-tool error-tracker backup-utility monitoring-agent'),
+              ('yuxuan-dev','yuxuan','e82c8295f9506ced6862ab7f39048a731b48beb4','content-manager asset-optimizer network-analyzer task-scheduler'),
+              ('yuzhen-dev','yuzhen','c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b','data-validator form-builder permission-manager invoice-generator payment-processor alert-system'),
+              ('zhaochen','zhaochen','b5f9cc4f79bb9218e40c0293ab9ec4e90352a626','template-engine load-balancer'),
+          ]
+          pool = pathlib.Path('tasks/finalpool')
+          pool.mkdir(parents=True, exist_ok=True)
+          manifest = []
+          seen = set()
+          for branch, folder, sha, names in selection:
+              for name in names.split():
+                  assert name not in seen, name
+                  seen.add(name)
+                  source = f'tasks/{folder}/{name}'
+                  tree = subprocess.check_output(['git','ls-tree','-rz',sha,'--',source]).split(b'\0')
+                  records = []
+                  for entry in filter(None, tree):
+                      metadata, raw_path = entry.split(b'\t', 1)
+                      mode, kind, oid = metadata.decode().split()
+                      assert kind == 'blob' and mode in ('100644','100755')
+                      path = raw_path.decode()
+                      assert path.startswith(source + '/')
+                      relative = path[len(source)+1:]
+                      assert '..' not in pathlib.PurePosixPath(relative).parts
+                      content = subprocess.check_output(['git','cat-file','blob',oid])
+                      target = pool / name / relative
+                      target.parent.mkdir(parents=True, exist_ok=True)
+                      target.write_bytes(content)
+                      target.chmod(0o755 if mode == '100755' else 0o644)
+                      assert target.read_bytes() == content
+                      records.append({'path': relative, 'git_blob': oid, 'sha256': hashlib.sha256(content).hexdigest()})
+                  assert records, source
+                  manifest.append({'task': name, 'implementor': branch, 'source_commit': sha, 'source_path': source, 'notion_status': 'implemented', 'files': records})
+          assert len(manifest) == 54
+          (pool / 'manifest.json').write_text(json.dumps({'notion_database':'69860c25-326a-8273-970b-0182d736d1a5','selection_rule':'All existing Task Tracker rows marked implemented; existing statuses preserved, not re-certified','tasks':manifest}, indent=2) + '\n')
+          (pool / 'README.md').write_text('# Final task pool\n\n54 tasks copied byte-for-byte from the source commits listed in manifest.json.\n\nSelection: all tasks already marked `implemented` in the active Notion Task Tracker database `69860c25-326a-8273-970b-0182d736d1a5`. Existing statuses were preserved, not re-certified.\n\nThe latest 29 named tasks and one unnamed task were recorded as `implementing`: all lack the task_config.json required by tasks/examples/example-task/readme.txt; four also contain Chinese in required English-only prompts. None of those tasks is included. Optional scripts and workspaces are not mandatory, and their implementation logic was not evaluated.\n\nNo task contents were rewritten, and no missing configuration files were invented. The project .gitignore ignores *.json, so the manifest was explicitly staged.\n')
+          print(f'Copied {len(manifest)} tasks, {sum(len(t["files"]) for t in manifest)} files')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f tasks/finalpool
+          git commit -m 'Collect all 54 Notion implemented tasks under tasks/finalpool'
+          git push origin HEAD:finalpool
